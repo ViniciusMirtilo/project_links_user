@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600&family=Mukta:wght@500&family=Noto+Sans+KR:wght@300&family=REM:wght@300&display=swap" rel="stylesheet">
-  <title>Links Vinicius</title>
-</head>
-<body>
-   <div id="container">
-    <div id="profile">
-      <img src="./assets/user.jpg" alt="Vinicius photo profile links">
-      <p>@Vinicius</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600&family=Mukta:wght@500&family=Noto+Sans+KR:wght@300&family=REM:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Links Vinicius</title>
+  </head>
+  <body>
+    <!-- photo -->
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/user.jpg" alt="Vinicius photo profile links" />
+        <p>@Vinicius</p>
+      </div>
+
+      <!-- button light and night -->
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <!-- links midia social -->
+      <ul>
+        <li>
+          <a href="https://github.com/ViniciusMirtilo" target="_blank"
+            >GitHub</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/vinicius-lima-dos-santos-428333190/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+
+        <li>
+          <a href="https://wa.me/5511977659674" target="_blank">Whatsapp</a>
+        </li>
+
+        <li><a href="./projects.html" target="_blank">Projects</a></li>
+      </ul>
+
+      <!-- function js -->
+      <script src="./script_fuction.js"></script>
     </div>
-   </div>
-</body>
+  </body>
 </html>
