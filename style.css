@@ -26,7 +26,7 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.1);
-  --swtich-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 /* body */
@@ -69,10 +69,10 @@ body {
   margin: 4px auto;
 }
 
-#swtich button {
+#switch button {
   width: 32px;
   height: 32px;
-  background: white var(--swtich-bg-url) no-repeat center;
+  background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
 
@@ -110,6 +110,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-top: 20px;
 }
 
 ul li a {
