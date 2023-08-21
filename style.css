@@ -13,15 +13,15 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
-  --stroek-color: #3c3552;
+  --stroek-color: #000000;
   --suface-color: rgba(113, 187, 250, 0.2);
-  --suface-color-hover: rgba(113, 187, 250, 0.5);
+  --suface-color-hover: black;
   --hightlight-color: rgba(113, 187, 250, 0.3);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
-  --text-color: black;
+  --text-color: white;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -130,9 +130,14 @@ ul li a {
   transition: background 0.2s;
 }
 
+ion-icon {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
 /* pseudo-selector */
 ul li a:hover {
-  background-color: var(--surface-color-hover);
+  background-color: var(--suface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
