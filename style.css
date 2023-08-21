@@ -103,6 +103,9 @@ body {
   border-radius: 9999px;
 }
 
+.volta a {
+  border: 100px solid red;
+}
 /* links */
 
 ul {
