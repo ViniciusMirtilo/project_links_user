@@ -1,4 +1,3 @@
-Claro! Aqui está o conteúdo em formato markdown:
 
 ```markdown
 # My Links
@@ -21,25 +20,24 @@ Este é um projeto de uma página de perfil pessoal que exibe links para minhas 
 
 ## Estrutura do Projeto
 
-```
+
 ├── assets
 │   └── Theme=Dark mode.jpg
 ├── script_fuction.js
 ├── style.css
 ├── projects.html
 └── index.html
-```
+
 
 ## Como Usar
 
 1. Clone o repositório:
-   ```bash
    git clone https://github.com/ViniciusMirtilo/my-links.git
-   ```
+  
 2. Navegue até o diretório do projeto:
-   ```bash
+   bash
    cd my-links
-   ```
+
 3. Abra o arquivo `index.html` no seu navegador preferido.
 
 ## Contato
@@ -50,6 +48,5 @@ Este é um projeto de uma página de perfil pessoal que exibe links para minhas 
 ---
 
 Feito por [Mirtilo 💙](https://github.com/ViniciusMirtilo)
-```
 
 Se precisar de mais alguma alteração ou outra sugestão, estou aqui para ajudar!
